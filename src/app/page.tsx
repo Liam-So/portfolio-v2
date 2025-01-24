@@ -39,15 +39,14 @@ export default function Home() {
       <div className="max-w-screen-2xl mx-auto">
       <section className="flex justify-between items-center">
           <div>
-            <p className='text-decoration-line: underline'>Liam So</p>
+            <Link href="/" className='text-decoration-line: underline'>Liam So</Link>
             <p>Software Engineer at ResMed</p>
           </div>
           <div className='flex gap-6'>
-            <p className="cursor-pointer hover:text-gray-600">Blog</p>
-            <p className="cursor-pointer hover:text-gray-600">Github</p>
-            <p className="cursor-pointer hover:text-gray-600">Work</p>
+            <Link href="/blog" className="cursor-pointer hover:text-gray-600">Blog</Link>
+            <a href="https://github.com/Liam-So" target="_blank" rel="noopener noreferrer" className="cursor-pointer hover:text-gray-600">Github</a>
           </div>
-        </section>
+      </section>
 
         {/* Grid container */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 border-b-2">
