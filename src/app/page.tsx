@@ -56,6 +56,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 border-b-2">
           {/* GIF 1 */}
           <div className="relative aspect-video rounded-lg overflow-hidden">
+          <a href="https://fintrack-rho.vercel.app/" target="_blank" rel="noopener noreferrer">
             <Image
               src="/categories-new.gif"
               alt="Categories demonstration"
@@ -63,10 +64,12 @@ export default function Home() {
               className="object-cover"
               unoptimized
             />
+          </a>
           </div>
 
           {/* GIF 2 */}
           <div className="relative aspect-video rounded-lg overflow-hidden">
+          <a href="https://fintrack-rho.vercel.app/" target="_blank" rel="noopener noreferrer">
             <Image
               src="/dashboard-new.gif"
               alt="Dashboard demonstration"
@@ -74,22 +77,32 @@ export default function Home() {
               className="object-cover"
               unoptimized
             />
+          </a>
           </div>
 
           {/* GIF 3 */}
           <div className="relative aspect-video rounded-lg overflow-hidden">
-            <Image
-              src="/upload-new.gif"
-              alt="Upload demonstration"
-              fill
-              className="object-cover"
-              unoptimized
-            />
+            <a href="https://fintrack-rho.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <Image
+                src="/upload-new.gif"
+                alt="Upload demonstration"
+                fill
+                className="object-cover"
+                unoptimized
+              />
+            </a>
           </div>
 
           <div className='py-8'>
-            <p className='text-decoration-line: underline'>FinTrack</p>  
+            <p className='text-decoration-line: underline'>FinTrack, 2025</p>  
             <p>Smart Expense Tracker Powered by AI</p>
+            <div className='flex gap-2'>
+            <a className='text-blue-600 hover:text-blue-800 text-sm' href={"https://fintrack-rho.vercel.app/"} target="_blank"
+                    rel="noopener noreferrer">View Demo</a>
+              <Link className='text-blue-600 hover:text-blue-800 text-sm' href={"/fintrack"}>View Blog</Link>
+              <a className='text-blue-600 hover:text-blue-800 text-sm' href={"https://github.com/Liam-So/fintrack"} target="_blank"
+                    rel="noopener noreferrer">View Code</a>
+            </div>
           </div>
         </div>
 
