@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .article {
-  @apply flex flex-col gap-8 tracking-wide mb-20 pt-8;
+  @apply flex flex-col gap-8 tracking-wide mb-20 pt-8 max-w-screen-md mx-auto;
 }
 
 .article > h1 {

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Github, ExternalLink, NotebookPen } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import Image from 'next/image';
 
 const projects = [
