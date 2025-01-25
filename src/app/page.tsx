@@ -40,12 +40,16 @@ export default function Home() {
       <section className="flex justify-between items-center">
           <div>
             <Link href="/" className='text-decoration-line: underline'>Liam So</Link>
-            <p>Software Engineer at ResMed</p>
+            
           </div>
           <div className='flex gap-6'>
             <Link href="/blog" className="cursor-pointer hover:text-gray-600">Blog</Link>
             <a href="https://github.com/Liam-So" target="_blank" rel="noopener noreferrer" className="cursor-pointer hover:text-gray-600">Github</a>
           </div>
+      </section>
+
+      <section className='pt-3'>
+        <p>Software Engineer at ResMed</p>
       </section>
 
         {/* Grid container */}
