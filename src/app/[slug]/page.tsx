@@ -3,12 +3,12 @@ import Link from "next/link"
 
 import {ArrowLeft} from "lucide-react"
 
-const Article = async ({ params }: { params: { slug: string } }) => {
-  const articleData = await getArticleData(params.slug)
+const Article = async ({ params }: { params: Promise<{ slug: string }> }) => {
+  const slug = (await params).slug
+  const articleData = await getArticleData(slug)
 
   return (
     <div className="min-h-screen bg-[#FDF7F2]">
-
       <section className="max-w-screen-lg mx-auto px-4 py-16">
         <div className="flex justify-between pb-4">
           <Link href={"/blog"} className="flex items-center gap-2">

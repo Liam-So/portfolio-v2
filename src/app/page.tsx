@@ -57,6 +57,7 @@ export default function Home() {
               alt="Categories demonstration"
               fill
               className="object-cover"
+              unoptimized
             />
           </div>
 
@@ -67,6 +68,7 @@ export default function Home() {
               alt="Dashboard demonstration"
               fill
               className="object-cover"
+              unoptimized
             />
           </div>
 
@@ -77,6 +79,7 @@ export default function Home() {
               alt="Upload demonstration"
               fill
               className="object-cover"
+              unoptimized
             />
           </div>
 
