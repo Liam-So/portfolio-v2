@@ -151,9 +151,9 @@ export default function Home() {
             <p className='text-decoration-line: underline'>Digital Solari Board, 2025</p>  
             <p className='text-gray-700'>Recreation of Grand Central&apos;s iconic Solari board with real-time subway data.</p>
             <div className='flex gap-2 pt-2'>
-                <a className='text-sm hover:text-gray-600' href={"https://fintrack-rho.vercel.app/"} target="_blank"
+                <a className='text-sm hover:text-gray-600' href={"https://solari-stm.vercel.app/"} target="_blank"
                       rel="noopener noreferrer">View Demo</a>
-                <a className='text-sm hover:text-gray-600' href={"https://github.com/Liam-So/fintrack"} target="_blank"
+                <a className='text-sm hover:text-gray-600' href={"https://github.com/Liam-So/solari-stm"} target="_blank"
                       rel="noopener noreferrer">View Code</a>
             </div>
           </div>

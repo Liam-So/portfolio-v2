@@ -1,1 +1,1 @@
-See deployed portfolio here: https://portfolio-liam-sos-projects.vercel.app/
+See deployed portfolio here: https://liamso.me
