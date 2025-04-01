@@ -54,42 +54,51 @@ export default function Home() {
 
         {/* Grid container */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 border-b-2">
-          {/* GIF 1 */}
+          {/* MP4 1 */}
           <div className="relative aspect-video rounded-lg overflow-hidden">
-          <a href="https://fintrack-rho.vercel.app/" target="_blank" rel="noopener noreferrer">
-            <Image
-              src="/categories-new.gif"
-              alt="Categories demonstration"
-              fill
-              className="object-cover"
-              unoptimized
-            />
-          </a>
+            <a href="https://fintrack-v2-two.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <video 
+                className="w-full h-full object-cover"
+                autoPlay 
+                muted 
+                loop 
+                playsInline
+              >
+                <source src="/dashboard-new.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </a>
           </div>
 
-          {/* GIF 2 */}
+          {/* MP4 2 */}
           <div className="relative aspect-video rounded-lg overflow-hidden">
-          <a href="https://fintrack-rho.vercel.app/" target="_blank" rel="noopener noreferrer">
-            <Image
-              src="/dashboard-new.gif"
-              alt="Dashboard demonstration"
-              fill
-              className="object-cover"
-              unoptimized
-            />
-          </a>
+            <a href="https://fintrack-v2-two.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <video 
+                className="w-full h-full object-cover"
+                autoPlay 
+                muted 
+                loop 
+                playsInline
+              >
+                <source src="/upload-new.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </a>
           </div>
 
-          {/* GIF 3 */}
+          {/* MP4 3 */}
           <div className="relative aspect-video rounded-lg overflow-hidden">
-            <a href="https://fintrack-rho.vercel.app/" target="_blank" rel="noopener noreferrer">
-              <Image
-                src="/upload-new.gif"
-                alt="Upload demonstration"
-                fill
-                className="object-cover"
-                unoptimized
-              />
+            <a href="https://fintrack-v2-two.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <video 
+                className="w-full h-full object-cover"
+                autoPlay 
+                muted 
+                loop 
+                playsInline
+              >
+                <source src="/categories-new.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </a>
           </div>
 
@@ -97,7 +106,7 @@ export default function Home() {
             <p className='text-decoration-line: underline'>FinTrack, 2025</p>  
             <p className='text-gray-700'>An intelligent personal finance platform that automatically categorizes transactions, and provides personalized financial insights.</p>
             <div className='flex gap-2 pt-2'>
-            <a className='text-sm hover:text-gray-600' href={"https://fintrack-rho.vercel.app/"} target="_blank"
+            <a className='text-sm hover:text-gray-600' href={"https://fintrack-v2-two.vercel.app/"} target="_blank"
                     rel="noopener noreferrer">View Demo</a>
               <Link className='text-sm hover:text-gray-600' href={"/fintrack"}>View Blog</Link>
               <a className='text-sm hover:text-gray-600' href={"https://github.com/Liam-So/fintrack"} target="_blank"
